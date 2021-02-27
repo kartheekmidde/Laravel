@@ -20,8 +20,7 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-    <h1>Welcome to Laravel</h1>
-    <p>This is the contacts page.</p>
+    <body>
+        @yield('content')
     </body>
 </html>
