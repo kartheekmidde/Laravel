@@ -1,0 +1,9 @@
+Install php, wamp, composer, laravel, npm, node
+
+composer create-project laravel/laravel testProject
+add virtual host in wamp if required
+php artisan make:controller PagesController
+composer require laravel/ui
+php artisan ui vue --auth
+npm i
+npm run dev
