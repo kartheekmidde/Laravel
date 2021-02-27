@@ -7,3 +7,6 @@ composer require laravel/ui
 php artisan ui vue --auth
 npm i
 npm run dev
+php artisan make:controller PostsController
+php artisan make:model Post -m
+php artisan migrate
