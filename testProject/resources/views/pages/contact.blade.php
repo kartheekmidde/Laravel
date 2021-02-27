@@ -22,6 +22,6 @@
     </head>
     <body class="antialiased">
     <h1>Welcome to Laravel</h1>
-    <p>This is a Laravel series</p>
+    <p>This is the contacts page.</p>
     </body>
 </html>
