@@ -13,3 +13,4 @@ php artisan migrate
 php artisan tinker
 php artisan make:controller PostsController --resource
 php artisan route:list
+composer require laravelcollective/html
