@@ -21,7 +21,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@index');
 Route::get('/services', 'PagesController@services');
 Route::get('/about', 'PagesController@about');
-Route::resource('posts', 'PostsController');
 
 Route::get('/hello', function () {
     return "<h2>Hello World</h2>";
@@ -39,3 +38,5 @@ Route::get('/users/{id}', function ($id) {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::resource('posts', 'PostsController');
