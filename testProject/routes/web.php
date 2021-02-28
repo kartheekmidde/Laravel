@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PagesController@index');
 Route::get('/services', 'PagesController@services');
 Route::get('/about', 'PagesController@about');
+Route::resource('posts', 'PostsController');
 
 Route::get('/hello', function () {
     return "<h2>Hello World</h2>";
